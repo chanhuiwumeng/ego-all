@@ -20,6 +20,7 @@ import java.io.Serializable;
 public class FileUploadResult implements Serializable {
     private String success;
     private String error;
+
     private String message;
     private String fileUrl;
 }
